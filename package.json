@@ -1,0 +1,19 @@
+{
+  "name": "tbc-vite-plugin-image-to-base64",
+  "version": "1.0.0",
+  "description": "一个Vite插件用于在开发环境下将小于4kb的图片转为base64以确保同Vite开发环境的默认处理方式。A Vite plug-in is used to convert images smaller than 4kb into base64 in the development environment to ensure the same default processing as the Vite development environment.",
+  "main": "src/index.js",
+  "type": "module",
+  "keywords": [
+    "vite",
+    "plugin",
+    "images",
+    "base64",
+    "inline"
+  ],
+  "author": "TianBenchu",
+  "license": "MIT",
+  "dependencies": {
+    "vite": "^4.0.0"
+  }
+}
